@@ -1,0 +1,53 @@
+
+#EO{ font-size: 72.5%; };
+#dialog-form label, input { display:block; }
+#dialog-form input.text { margin-bottom:12px; width:95%; padding: .4em; }
+#dialog-form fieldset { padding:0; border:0; margin-top:25px; }
+#dialog-form h1 { font-size: 1.2em; margin: .6em 0; }
+#users-contain { width: 350px; margin: 20px 0; }
+#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+#gus1, #gus2, #she1, #she2, #yoli1, #yoli2{
+    width: 600px; 
+    height: 50px; 
+    padding: 0.5em; 
+    margin: 3% 0 0 3%;
+}
+
+#gus{
+    width: 200px; 
+    height: 200px; 
+    margin: 3% 0 0 75%;
+}
+
+#yoli{
+    width: 200px; 
+    height: 200px; 
+    margin: 3% 0 0 45%;
+}
+
+#sheila{
+    width: 200px; 
+    height: 200px; 
+    margin: 3% 0 0 15%;
+
+}
+
+
+
+
+
+
+
+
+
+

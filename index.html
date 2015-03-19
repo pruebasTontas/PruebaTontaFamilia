@@ -1,0 +1,91 @@
+<!-- Kevin Oliva Muñoz -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">   
+    <script type="text/javascript" src="jQuery.js"></script>
+	<script src="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="socios.js"></script>
+    <link href="jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet">
+    <link href="socios.css" rel="stylesheet">
+     
+    
+  </head>
+  <body>
+    <div id="EO">
+    <div id="dialog-form" title="Create new user">
+    <p class="validateTips">All form fields are required.</p>
+    <form>
+    <fieldset>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="Jane Smith" class="text ui-widget-content ui-corner-all">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" value="jane@smith.com" class="text ui-widget-content ui-corner-all">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
+    <!-- Allow form submission with keyboard without duplicating the dialog button -->
+    <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+    </fieldset>
+    </form>
+    </div>
+    <div id="users-contain" class="ui-widget">
+    <h1>Familiares:</h1>
+    <table id="users" class="ui-widget ui-widget-content">
+    <thead>
+    <tr class="ui-widget-header ">
+    <th>Name</th>
+    <th>Email</th>
+    <th>Password</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    <button id="create-user">Añade familiar</button>
+    <br>
+    <button id="pagWeb">Visitar pagina web de la familia</button>
+    </div>
+    
+    <div id="tabs">
+        <ul>
+        <li><a href="#tabs-1">Datos de los familiares</a></li>
+        <li><a href="#tabs-2">Mejores frases</a></li>
+        <li id="boton"><a href="#tabs-3">Juegos</a></li>
+        </ul>
+        <div id="tabs-1"><div id="upd"></div></div>
+        <div id="tabs-2"><div id="frases"></div></div>
+        <div id="tabs-3"></div>
+    </div>
+    
+    <div id="juego">
+        <button id="volver">Pulsa para volver a informacion y frases</button>
+        <br>
+        Añade la imagen hasta su autor y desaparecera
+        <li>
+            <div id="gus1" class="ui-widget-content">Por eso</div>
+            <div id="gus2" class="ui-widget-content">Me da igual 4 que 80</div>      
+            <div id="she1" class="ui-widget-content">Dinero dinero aqui</div>
+            <div id="she2" class="ui-widget-content">Cada semana voy a querer comprar otra funda a mi ipad nuevo</div>   
+            <div id="yoli1" class="ui-widget-content">Es la primera vez que me siento en todo el dia</div>
+            <div id="yoli2" class="ui-widget-content">Toda la ropa que tienes colgada no es nada para lavar??</div>   
+        </li>
+        
+        <div id="gus"> <img src="images/gus.PNG"></div>   
+        <div id="sheila"><img src="images/sheila.PNG"></div>   
+        <div id="yoli"><img src="images/yoli.PNG"></div>   
+        <br>
+        <br>
+
+    </div>
+    
+    
+  </body>
+</html>
+

@@ -1,0 +1,31 @@
+{
+    "Mensajes":[
+        {"Autor": "Frases de Gustavo",
+        "Avatar": "images/gus.PNG",
+        "Titulo":"Frases de Gustavo",
+        "Contenido1":"Me dice que tengo el wifi controlado porque sale candado, eso no puede ser papa, ya por eso",
+        "Contenido2":"Me habeis dado en el 17 con la cafetera, lo del 17 lo he dicho en broma eh",
+        "Fecha":"09/03/2015"},
+        
+        {"Autor": "Sheila Oliva Muñoz",
+        "Avatar": "images/sheila.PNG",
+        "Titulo":"Frases Sheila",
+        "Contenido1":"Mama el ipad es una tablet de la marca apple, no te enteras",
+        "Contenido2":"Me he leido todas las instrucciones y hay 654 cafes distintos, ya se hacer todos, que lista soy",
+        "Fecha":"09/03/2015"},
+
+        {"Autor": "Gustavo Oliva Gomez",
+        "Avatar": "images/gus.PNG",
+        "Titulo":"Frases de Yoli",
+        "Contenido1":"Es la primera vez que me siento en todo el dia",
+        "Contenido2":"Mira la hora que es, y todo lo que tengo que hacer todavia",
+        "Contenido3":"Bueno Sheila, dimelo ya y no des tantas explicaciones que yo tengo muchas cosas que hacer",
+        "Fecha":"09/03/2015"},
+
+        {"Autor": "Yolanda Muñoz Diaz",
+        "Avatar": "images/yoli.PNG",
+        "Titulo":"HALA MADRID",
+        "Contenido":"Trabajadora",
+        "Fecha":"09/03/2015"}
+    ]
+}
